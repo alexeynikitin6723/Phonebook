@@ -1,4 +1,4 @@
-﻿namespace Phonebook;
+﻿namespace PhoneBook;
 
 /// <summary>
 /// Номер телефона.

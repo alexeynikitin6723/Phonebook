@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Phonebook;
+namespace PhoneBook;
 
 /// <summary>
 /// Валидатор номера телефона.

@@ -1,4 +1,4 @@
-﻿namespace Phonebook;
+﻿namespace PhoneBook;
 
 /// <summary>
 /// Телефонная книга.
@@ -97,6 +97,14 @@ public class Phonebook
   public void DeleteSubscriber(Subscriber subscriberToDelete)
   {
     this.subscribers.Remove(subscriberToDelete);
+  }
+
+  /// <summary>
+  /// Очистить список подписчиков
+  /// </summary>
+  internal void ClearPhonebookList()
+  {
+    this.subscribers.Clear();
   }
 
   #endregion
